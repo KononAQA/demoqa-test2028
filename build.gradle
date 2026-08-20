@@ -2,12 +2,13 @@ plugins {
     id 'java-library'
 }
 
-repositorries {
+repositories {
     mavenCentral()
 }
 
 dependencies {
     testImplementation(
+            "org.junit.jupiter:junit-jup",
             "com.codeborne:selenide:7.17.0"
     )
 }
